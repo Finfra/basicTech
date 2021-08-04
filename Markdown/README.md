@@ -22,7 +22,7 @@ Name         | Value                          | Desc
 - <https://stackedit.io/>
 
 ## Application
-- Mou
+### Mou
 ## Editor Plugin
 ### Atom
 ### Sublime
@@ -93,3 +93,18 @@ Z = \frac{X - \mu  }{ \sigma }
 
 ## Link + image
 [![finfra](http://finfra.com/f/f.png)](http://finfra.com)
+```
+[![finfra](http://finfra.com/f/f.png)](http://finfra.com)
+```
+
+## 표
+
+| 값 | 의미 | 기본값 |
+|----|:---:|---:|
+| 'static' | 유형(기준) 없음 / 배치 불가능 | 'static' |
+```
+| 값 | 의미 | 기본값 |
+|----|:---:|---:|
+| 'static' | 유형(기준) 없음 / 배치 불가능 | 'static' |
+```
+> 콜론을 입력하면 원하는 위치로 정렬 가능

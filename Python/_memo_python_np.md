@@ -69,7 +69,7 @@ a.reshape(-1,3)
 i1=np.ones((1,2,2))
 i2=np.array([[[1,2],[3,4]] ] )
 
-a=np.vstack( (i11,i22,i11) )
+a=np.vstack( (i1,i2,i1) )
 print(f"{a.shape}\n\n{a} ")
 
 ```

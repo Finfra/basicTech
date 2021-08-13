@@ -1,0 +1,123 @@
+https://snapmaker.com/product/snapmaker-2/downloads
+
+# 스위치 종류와 형태
+
+## 스위치 종류 (움직이는 곳을 Pole, 닿는 곳을 Throw라고 합니다.)
+https://m.blog.naver.com/lagrange0115/221943701916
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfMjY4/MDAxNTg4NDk5Mzg0NTI0.Mw43yoVU1wQRwLnSNt_IdMM0vvpqCqJbYufk8qoqZvUg.XxVSTAw6DCM9gDqIU2DgMiFDFL84roIktQkT1-5705cg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC5.png?type=w800)
+
+
+
+### SPST (Single Pole Single Throw)
+Pole이 1개 있고, throw가 1개 있는 경우를
+SPST(Single Pole Single Throw)라고 합니다.
+보편적으로 많이 사용하는 스위치로 CLOSED 되면 전기적으로 연결되고,
+OPEN 되면 전기적으로 단선됩니다.
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfMTk3/MDAxNTg4NTAwNjE2ODQ0.qA-8MNskueZiboTL50k1tdKHK0H2-kaijk3YCApvQlwg.2CahT7KqaMyvffsHp7G-2hRcg_Rt8ZiO3Xvn7SF4IOsg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC6.png?type=w800)
+
+
+### SPDT (Single Pole Double Throw)
+Pole이 1개 있고, throw가 2개 있는 경우를 SPDT라고 합니다.
+Pole이 1개, throw가 2개이기 때문에
+스위치의 다리 개수가 총 3개인 것을 확인할 수 있습니다.
+스위치를 통해 두 갈래의 경로 중에 한 군데를 선택하여 연결됩니다.
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfMiAg/MDAxNTg4NTAxMTU4OTQw.JLW3ARAO6V96WYCCCevwNlnfUWW03sZ5KcexixjQ_Rcg.vx_Pko8A3vxHyCGh5_ELD6ys30qx3kWTHcKDdHwqGmAg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC10.png?type=w800)
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfNTYg/MDAxNTg4NTAwNjE3OTg5.uEdMc1MYP7B7ann7S0zdIpA3e_mdWSvw2YtXOnMzcx8g.al-JM3Abl9G2wZgCJ0Qzn9yEjnLFbq2EjR6qwNKMRI4g.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC7.png?type=w800)
+
+복도 입구와 복도 끝에서 각각의 스위치를 가지고 복도 등을 ON/OFF 할 수 있습니다.
+
+
+### DPST (Double Pole Single Throw)
+Pole이 2개 있고, throw가 1개 있는 경우를 DPST라고 합니다.
+마치 SPST 2개가 병렬로 동시에 동작한다고 생각하면 됩니다.
+다리가 4개
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfMTE1/MDAxNTg4NTAyNzQ2Nzgw.agEky3ELKtoG5A-mxuIpEsBwOmRaCVZHRCp-CsOsUO8g.KWOSP_i21fauTsqr86XoN4TL_8wIM7MDZ9ZR7nwK0fUg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC12.png?type=w800)
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfMTg3/MDAxNTg4NTAyNzQ2NzYz.SCvc7DM2EXPdIzBA0hpv47-5xE4sAZRazpPOkLGylUwg.3m7e407BgCHB8sb50C_HXtrXBeglyidBehVN_mAOT4Ug.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC11.png?type=w800)
+
+
+
+### DPDT (Double Pole Double Throw)
+Pole이 2개, throw가 2개 있는 경우를 DPDT라고 합니다.
+마치 SPDT 2개가 병렬로 동시에 동작한다고 생각하면 됩니다.
+다리가 6개
+
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfMTg5/MDAxNTg4NTAzMjE2NzU0.OLALPw5t4aaZ8y2zqtVpHqJE2eausO9wSHWTMsIHZQEg.ip5d6gqrAp9SWrkQQhysWafmMM9zDH0qdWAG-y8RtcEg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC13.png?type=w800)
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfMzkg/MDAxNTg4NTAzMjE2NzM2.Unu0HbK79hM0LHAuQ4k83DaePWA6HBkRF7UtqpruYCkg.SiJCs1trMU4hc1bKukPgy_JCyo6oCyJ_rVubemg8hAog.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC14.png?type=w800)
+
+
+## 스위치 형태
+
+### 푸쉬 버튼 스위치
+pc 본체의 전원, 자동차 등 누름방식의 누름 스위치입니다.
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfOTMg/MDAxNTg4NTAzNDgyNDUw.-_m_YYXth0s8MqBPpnXSuL6cm4_CjYGz16kT-Amcwk4g.HKMzuxClyrc48aMuJJIoubae0eK6KcmYNdpQiOeo6Osg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC15.png?type=w800)
+
+
+### 토글 스위치
+만화나 영화에서 우주선을 조작할때 항상 빠지지 않고 등장하는 스위치 입니다.
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfOTIg/MDAxNTg4NTA0MDUwMzUx.2xy6t6acNrAyikys32_8HvOUjnXczwrKG_rHCW9MYLYg.IiNfA0fCm_VwKUF6Wnvp0uGUujYemc-oOF3s3HHUA00g.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC16.png?type=w800)
+
+
+### 리미트 스위치
+마우스 버튼에서 쉽게 볼 수 있는 스위치 입니다.
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfMjA4/MDAxNTg4NTA1OTgwMzA0.vrvCkeJ08yM2G25rXWkG_bgNbC0tXqyKW9tfOTzULaYg.-Vehfy1OgZYZKuPSAafNoPj3G2c-UUTzqZdXTABQ6eAg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC17.png?type=w800)
+
+
+### 로터리 스위치
+전자레인지, 자동차, 선풍기 등에 사용되는 스위치 입니다.
+![switch](https://mblogthumb-phinf.pstatic.net/MjAyMDA1MDNfMjA2/MDAxNTg4NTA5NDQ3Mzg4.hpBNacu5dJ6m0XKaeTwn0Pmm8wc-TrR76M8wP9wx6Vwg.r9NyLSUg35nZk8dyTADhWudde6XzcXDOJdNeuG7ZBtsg.PNG.lagrange0115/%EA%B7%B8%EB%A6%BC18.png?type=w800)
+
+
+### 딥 스위치
+딥 상의 일련의 ON-OFF  스위치로서, 하드웨어의 변경 없이 사용자가 회로기판
+상에서 기능을 임의로 선택 할 수 있습니다. 기타 전자부품과 함께 회로기판에서
+사용하도록 설계되었으며 수명이 깁니다.
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAxOTA4MDhfOTcg/MDAxNTY1MjQyODg4NDU2.wpHp-CFs1Hg5UyBabXOS70LMsT_Nj-5aDpmFQ07-vkYg.fRnai8zkE0zHlEcuvfTeNYwOfu2MJqVB4NkVmxKpFR4g.PNG.lurfnmurf/dip_switch.png?type=w800)
+
+
+### 리드 스위치
+스위치 내부에는 진공관 안에 서로 벌려져 있는 리드가 있고,
+이 리드에 스위치로 자성을 띄게 하면 리드가 서로 붙어 연결됩니다.
+만약 스위치가  off 될 경우 리드에서 자성은 사라지고 리드는 다시 벌어지게 됩니다.
+빌딩 등의 가드 시스템으로 많이 사용되는 스위치입니다.
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAxOTA4MDhfNDkg/MDAxNTY1MjQyODg4NTAw.ZIeCmxksHMKIViBpcKC399XdkIIsK29nXaS7vCZs9_kg.WHNWa9V796uH76tE6ZRPAbTbw93Ov91fnUZLzgAs_R8g.PNG.lurfnmurf/lead_switch.png?type=w800)
+
+
+### 마이크로 스위치
+민감 스위치 또는 빠른 이동 스위치라고도 합니다.
+레버가 작동되어 스위치 내부의 접점이 ON, OFF 되어 전기를 차단하고
+이어주는 역할을 합니다.
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAxOTA4MDhfMjU4/MDAxNTY1MjQyODg4MTc3.YPu-dkHzKSRObv3mLeZGgBwe0p_tZndLzav0UQsOtuwg.k2AuepugGAUgtUN9SBh5tzhA_Vm4oI-35HepSAhgbnAg.PNG.lurfnmurf/micro_switch.png?type=w800)
+
+
+### 로커스위치
+로커 스위치는 전원용으로 사용되며, 각종 제품의 전원 공급 장치,
+기타 다른 응용장치에 사용됩니다.
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAxOTA4MDhfNzUg/MDAxNTY1MjQyODg4NDky.eJMRH5_wMJZwFV7JC8SByDrkoH5pdHEwUgDES_HpQaIg.TnuEDmPK9x9Co317yaXqTIF3JIehiItrU9HBQaNAA8sg.PNG.lurfnmurf/rocker_switch.png?type=w800)
+
+
+### 슬라이드 스위치
+작은 사이즈는 MP3 의 Hold 용으로 많이 사용 되고 큰 사이즈는 자동, 수동 변환
+또는 회로 변환등으로 사용 된다.
+
+![switch](https://mblogthumb-phinf.pstatic.net/MjAxOTA4MDhfNjUg/MDAxNTY1MjQyODg4NjU3.VrllR9mtoQs2JKFpF8l2i535DKEyeyzBRtiYV3Kg6_og.9lljiJaVBAwarA1GjnWgSrDDhGaHsv9SWEL4I02azqkg.PNG.lurfnmurf/slide_switch.png?type=w800)
+
+
+
+### 텍트스위치
+가장 흔한 버튼입니다.
+주로 네비게이션, PMP 등 소형가전에 사용됩니다.
+![switch](https://mblogthumb-phinf.pstatic.net/MjAxOTA4MDhfODkg/MDAxNTY1MjQyODg4NDM2.MGchC0mSnYB0E0VXkDXQzw-1sniT6BLRByHz4OQ1e5Qg.Hx6XqUvmUfvv8yoqeHId92k1HRDtfMVeXWgZ16sa0-cg.PNG.lurfnmurf/tact_switch.png?type=w800)
+
+
+!https://www.eleparts.co.kr/goods/view?no=1881708

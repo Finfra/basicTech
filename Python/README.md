@@ -4,3 +4,5 @@
 * [3.PythonPractice_problem1.ipynb](./3.PythonPractice_problem1.ipynb)
 * [4.Python-if,while,for.ipynb](./4.Python-if,while,for.ipynb)
 * [9.연습문제.ipynb](./9.연습문제.ipynb)
+* [종합 연습문제](./http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&sca=1030)
+* [초보자를 위한 파이썬 300](./https://wikidocs.net/7014)

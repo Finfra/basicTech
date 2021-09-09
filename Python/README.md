@@ -3,8 +3,11 @@
 * [2.PythonIntrospection.ipynb](./2.PythonIntrospection.ipynb)
 * [3.PythonPractice_problem1.ipynb](./3.PythonPractice_problem1.ipynb)
 * [4.Python-if,while,for.ipynb](./4.Python-if,while,for.ipynb)
-* [8.연습문제1.ipynb](./8.연습문제1.ipynb)
-* [9.연습문제2.ipynb](./9.연습문제2.ipynb)
+* [5.String_Advanced.ipynb](./5.String_Advanced.ipynb)
+* [6.PythonFileProcessing.ipynb](./6.PythonFileProcessing.ipynb)
+* [7.PythonAdvanced.ipynb](./7.PythonAdvanced.ipynb)
+* [8.연습문제1.ipynb](./8.연습문제1.ipynb)
+* [9.연습문제2.ipynb](./9.연습문제2.ipynb)
 
 # References
 * [종합 연습문제](./http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&sca=1030)

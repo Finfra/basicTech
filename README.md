@@ -1,9 +1,9 @@
 # basicTech
-* 핀프라 내부 직원용 학습 및 기술문서 정리용
+* IT 입문자를 위한 필수 도구 모음.
 
 # Agenda
 * [0.Markdown](./Markdown/)
-* [1.Git](./Git/)
-* [2.Atom](./Atom/)
+* [1.Atom](./Atom/)
+* [2.Git](./Git/)
 * [3.Python](./Python/)
 * [4.Docker](./Docker/)

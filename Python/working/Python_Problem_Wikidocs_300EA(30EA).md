@@ -11,9 +11,6 @@ https://wikidocs.net/book/922
 print('신씨가 소리질렀다. "도둑이야".')
 ```
 
-    신씨가 소리질렀다. "도둑이야".
-
-
 ### 004 print 기초
 
 
@@ -21,16 +18,10 @@ print('신씨가 소리질렀다. "도둑이야".')
 print('"C:\Windows"')
 ```
 
-    "C:\Windows"
-
-
 
 ```python
 print('("C:\Windows")')
 ```
-
-    ("C:\Windows")
-
 
 ### 005 print 탭과 줄바꿈
 
@@ -38,10 +29,6 @@ print('("C:\Windows")')
 ```python
 print("안녕하세요.\n만나서\t\t반갑습니다.")  # \t 텝, \n 줄바꿈 의미
 ```
-
-    안녕하세요.
-    만나서		반갑습니다.
-
 
 ### 007 print 기초
 
@@ -51,18 +38,12 @@ print("naver", "kakao", "samsung", sep=";")
 # print  함수의  sep인자로 ";"를 입력하면 출력되는 값들 사이에 한칸의 공백대신 세미콜론이 출력된다.
 ```
 
-    naver;kakao;samsung
-
-
 ### 008 print 기초
 
 
 ```python
 print("naver", "kakao", "sk", "samsung", sep="/")
 ```
-
-    naver/kakao/sk/samsung
-
 
 ### 009 print 줄바꿈
 
@@ -75,9 +56,6 @@ print("first");print("second")
 print("first",end="");print("second")
 ```
 
-    firstsecond
-
-
 ## 02. 파이썬 변수 (https://wikidocs.net/7021)
 
 ### 011 변수 사용하기
@@ -88,9 +66,6 @@ print("first",end="");print("second")
 총평가금액 = 삼성전자 * 10
 print(총평가금액)
 ```
-
-    500000
-
 
 012 변수 사용하기
 
@@ -105,11 +80,6 @@ print(현재가, type(현재가))
 print(PER, type(PER))
 ```
 
-    298000000000000 <class 'int'>
-    50000 <class 'int'>
-    15.79 <class 'float'>
-
-
 ### 015 type 함수
 
 
@@ -118,17 +88,11 @@ a = 128
 print(type(a))
 ```
 
-    <class 'int'>
-
-
 
 ```python
 a = "132"
 print(type(a))
 ```
-
-    <class 'str'>
-
 
 ### 016 문자열을 정수로 변환
 
@@ -139,9 +103,6 @@ num_int = int(num_str)
 print(num_int, type(num_int))
 ```
 
-    720 <class 'int'>
-
-
 ### 017 정수를 문자열 100으로 변환
 
 
@@ -151,9 +112,6 @@ result=str(num)
 print(result, type(result))
 ```
 
-    100 <class 'str'>
-
-
 ### 018 문자열을 실수로 변환
 
 
@@ -162,9 +120,6 @@ a = "15.79"
 b = float(a)
 print(b,type(b))
 ```
-
-    15.79 <class 'float'>
-
 
 ### 019 문자열을 정수로 변환
 
@@ -177,11 +132,6 @@ print(int(year)-2)
 print(int(year)-1)
 ```
 
-    2017
-    2018
-    2019
-
-
 ### 020 파이썬 계산
 
 
@@ -191,18 +141,12 @@ b = 36
 print(a*b)
 ```
 
-    1749024
-
-
 
 ```python
 월 = 48584
 총금액 = 월 * 36
 print(총금액)
 ```
-
-    1749024
-
 
 ## 파이썬 문자열 (https://wikidocs.net/7022)
 
@@ -214,9 +158,6 @@ letter = 'python'
 print(letter[0], letter[2])
 ```
 
-    p t
-
-
 ### 022 문자열 슬라이싱
 
 
@@ -224,9 +165,6 @@ print(letter[0], letter[2])
 license_plate = "24rk 2210"
 print(license_plate[-4:])    # 음수 값은 문자열의 뒤에서부터 인덱싱 또는 슬라이싱함을 의미한다. 
 ```
-
-    2210
-
 
 ### 023 문자열 인덱싱 ???
 
@@ -237,9 +175,6 @@ string = "홀짝홀짝홀짝"
 print(string[::2])  # 슬라이싱할 떄 시작인덱스:끝인덱스:오프셋 을 지정할 수 있습니다.
 ```
 
-    홀홀홀
-
-
 ### 024 문자열 슬라이싱
 
 
@@ -247,9 +182,6 @@ print(string[::2])  # 슬라이싱할 떄 시작인덱스:끝인덱스:오프셋
 string = "PYTHON"
 print(string[::-1])   # -1은 끝에서부터 라는 뜻...
 ```
-
-    NOHTYP
-
 
 ### 025  문자열 치환
 
@@ -260,9 +192,6 @@ phone_number = phone_number.replace("-"," ")
 print(phone_number)
 ```
 
-    010 1111 2222
-
-
 ### 026 문자열 다루기 (025번 문제 이어서)
 
 
@@ -272,9 +201,6 @@ phone_number = phone_number.replace("-","")
 print(phone_number)
 ```
 
-    01011112222
-
-
 ### 027 문자열 다루기
 
 
@@ -283,18 +209,12 @@ url = "http://sharebook.kr"
 print(url[-2]+url[-1])   
 ```
 
-    kr
-
-
 
 ```python
 url = "http://sharebook.kr"
 url_split = url.split('.')   # .을 기준으로 분리한다. 분리된 url 중 마지막을 인덱싱 하면 도메인만 출력 가능
 print(url_split[-1])
 ```
-
-    kr
-
 
 ### 028 문자열은 immutable
 
@@ -305,20 +225,6 @@ lang[0] = 'P'  #문자열은 수정할 수 없다. 실행 결과를 확인해보
 print(lang)
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    TypeError                                 Traceback (most recent call last)
-
-    <ipython-input-69-ba8eb7824ab8> in <module>()
-          1 lang = 'python'
-    ----> 2 lang[0] = 'P'
-          3 print(lang)
-
-
-    TypeError: 'str' object does not support item assignment
-
-
 ### 029 replace 메서드
 
 
@@ -327,9 +233,6 @@ string = 'abcdfe2a354a32a'
 string_replace = string.replace('a','A')
 print(string_replace)
 ```
-
-    Abcdfe2A354A32A
-
 
 ### 030 replace 메서드
 
@@ -340,9 +243,6 @@ string.replace('b','B')
 print(string)   # 문자열은 변경할 수 없는 자료형 이기 때문에 replace 매서드를 사용하면 원본은 그대로 둔채로 변경된 새로운 문자열 객체를 리턴해준다.
 ```
 
-    abcd
-
-
 ### 031 문자열 합치기
 
 
@@ -352,9 +252,6 @@ b = "4"
 print(a+b)
 ```
 
-    34
-
-
 ### 문자열 곱하기
 
 
@@ -362,9 +259,6 @@ print(a+b)
 print("Hi" *3)
 
 ```
-
-    HiHiHi
-
 
 ### Format String
 
@@ -377,22 +271,11 @@ print('이름: ' + name  + '나이: ' +3 )
 
 ```
 
-    python kk
-
-
 
 ```python
 print("이름: %s 나이: %d " % ('name', 3))   # %s는 문자열 데이터 타입의 값을, %d는 정수형 데이터 타입 값의 출력을 의미
 
 ```
-
-
-      File "<ipython-input-15-231e57cfffab>", line 1
-        print("이름: %s 나이: %d " % ('name, 3))   # %s는 문자열 데이터 타입의 값을, %d는 정수형 데이터 타입 값의 출력을 의미
-                                                                                             ^
-    SyntaxError: EOL while scanning string literal
-
-
 
 
 ```python

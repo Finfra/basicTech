@@ -11,9 +11,6 @@ https://wikidocs.net/book/922
 print('신씨가 소리질렀다. "도둑이야".')
 ```
 
-    신씨가 소리질렀다. "도둑이야".
-
-
 ### 004 print 기초
 
 
@@ -21,16 +18,10 @@ print('신씨가 소리질렀다. "도둑이야".')
 print('"C:\Windows"')
 ```
 
-    "C:\Windows"
-
-
 
 ```python
 print('("C:\Windows")')
 ```
-
-    ("C:\Windows")
-
 
 ### 005 print 탭과 줄바꿈
 
@@ -38,10 +29,6 @@ print('("C:\Windows")')
 ```python
 print("안녕하세요.\n만나서\t\t반갑습니다.")  # \t 텝, \n 줄바꿈 의미
 ```
-
-    안녕하세요.
-    만나서		반갑습니다.
-
 
 ### 007 print 기초
 
@@ -51,18 +38,12 @@ print("naver", "kakao", "samsung", sep=";")
 # print  함수의  sep인자로 ";"를 입력하면 출력되는 값들 사이에 한칸의 공백대신 세미콜론이 출력된다.
 ```
 
-    naver;kakao;samsung
-
-
 ### 008 print 기초
 
 
 ```python
 print("naver", "kakao", "sk", "samsung", sep="/")
 ```
-
-    naver/kakao/sk/samsung
-
 
 ### 009 print 줄바꿈
 
@@ -75,9 +56,6 @@ print("first");print("second")
 print("first",end="");print("second")
 ```
 
-    firstsecond
-
-
 ## 02. 파이썬 변수 (https://wikidocs.net/7021)
 
 ### 011 변수 사용하기
@@ -88,9 +66,6 @@ print("first",end="");print("second")
 총평가금액 = 삼성전자 * 10
 print(총평가금액)
 ```
-
-    500000
-
 
 012 변수 사용하기
 
@@ -105,11 +80,6 @@ print(현재가, type(현재가))
 print(PER, type(PER))
 ```
 
-    298000000000000 <class 'int'>
-    50000 <class 'int'>
-    15.79 <class 'float'>
-
-
 ### 015 type 함수
 
 
@@ -118,17 +88,11 @@ a = 128
 print(type(a))
 ```
 
-    <class 'int'>
-
-
 
 ```python
 a = "132"
 print(type(a))
 ```
-
-    <class 'str'>
-
 
 ### 016 문자열을 정수로 변환
 
@@ -139,9 +103,6 @@ num_int = int(num_str)
 print(num_int, type(num_int))
 ```
 
-    720 <class 'int'>
-
-
 ### 017 정수를 문자열 100으로 변환
 
 
@@ -151,9 +112,6 @@ result=str(num)
 print(result, type(result))
 ```
 
-    100 <class 'str'>
-
-
 ### 018 문자열을 실수로 변환
 
 
@@ -162,9 +120,6 @@ a = "15.79"
 b = float(a)
 print(b,type(b))
 ```
-
-    15.79 <class 'float'>
-
 
 ### 019 문자열을 정수로 변환
 
@@ -177,11 +132,6 @@ print(int(year)-2)
 print(int(year)-1)
 ```
 
-    2017
-    2018
-    2019
-
-
 ### 020 파이썬 계산
 
 
@@ -191,18 +141,12 @@ b = 36
 print(a*b)
 ```
 
-    1749024
-
-
 
 ```python
 월 = 48584
 총금액 = 월 * 36
 print(총금액)
 ```
-
-    1749024
-
 
 ## 파이썬 문자열 (https://wikidocs.net/7022)
 

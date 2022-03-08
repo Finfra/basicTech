@@ -45,7 +45,6 @@ sudo chmod 777 /var/run/docker.sock
 docker run --name h1 hello-world
 docker rm -f h1
 docker rmi hello-world
-
 ### 일반 유저 Docker 가능하게 하기2
     sudo gpasswd -a ${USER} docker
     sudo service docker restart
@@ -76,6 +75,7 @@ docker rmi hello-world
 sudo usermod -aG docker ${USER}
 sudo service docker restart
 ```
+
 
 # docker-compose
 ## docker-compose info
@@ -110,8 +110,7 @@ docker-compose rm -f
 ### ports
 ### volumes
 ### environment
-## Examples
-* Example1
+## Example1
 ```
 version: '3.3'
 services:
@@ -122,7 +121,7 @@ services:
     restart: always
 ```
 
-* Example2 : just syntax
+## Example2 : just syntax
 ```
 services:
   container2:
@@ -191,16 +190,19 @@ volumes:
 ```
 open http://127.0.0.1:8000
 
+
+
 # docker-machine
 ## command
 * docker-machine ip
 
-## DockerMachine 용량 모자를 때 (NoSpace left )
+
+## Docker toolbox : Machine Disk 용량 모자를 때 (NoSpace left )
+```
 docker-machine rm default
 docker-machine create --driver virtualbox --virtualbox-disk-size "60000" default
 docker-machine env default
-
-
+```
 
 # Command
 ## Machine repository Search & Pull
@@ -209,6 +211,7 @@ docker search <imageName>
 docker pull <imageName>
 docker images
 ```
+
 
 ## run
 ```
@@ -257,6 +260,7 @@ ExecStop=/usr/bin/docker stop [컨테이너 이름]
 [Install]
 WantedBy=local.target
 ```
+
 ## ps
 ```
 docker ps -a
@@ -267,6 +271,7 @@ docker ps -a
 ```
 docker ps --filter publish=80/tcp
 ```
+* Filter Options
 | Filter   | Description                                                                                                                         |
 |----------|------------------------------------------------------------------------------------------------------------------------------------|
 | id       |Container’s ID                                                                                                                      |
@@ -289,7 +294,7 @@ docker ps --filter publish=80/tcp
 ```
 docker ps  --format "table {{.ID}}\t{{.Mounts}}"
 ```
-
+* Formats
 |Placeholder |Description                                                                                   |
 |------------|---------------------------------------------------------------------------------------------|
 | .ID        |Container ID                                                                                  |
@@ -305,6 +310,8 @@ docker ps  --format "table {{.ID}}\t{{.Mounts}}"
 | .Label     |Value of a specific label for this container. For example '{{.Label "com.docker.swarm.cpu"}}'|
 | .Mounts    |Names of the volumes mounted in this container.                                               |
 | .Networks  |Names of the networks attached to this container.                                             |
+
+
 
 
 ## Container start/stop/restart/kill
@@ -366,6 +373,31 @@ docker run -it --name u2  --network n1 ubuntu
     ifconfig                              ←  1
 ```
 
+
+
+## Command
+### up
+```
+docker-compose up -d
+```
+* -d: 서비스 실행 후 콘솔로 빠져나옵니다. (docker run에서의 -d와 같습니다.)
+* --force-recreate: 컨테이너를 지우고 새로 만듭니다.
+* --build: 서비스 시작 전 이미지를 새로 만듭니다.
+
+### rm
+```
+docker-compose rm -f
+```
+### down
+* --volume: 볼륨까지 삭제합니다.
+
+### ps
+* -q, --quiet          Only display IDs
+* --services           Display services
+* --filter KEY=VAL     Filter services by a property
+* -a, --all            Show all stopped containers (including those created by the run command)
+
+
 ## history
 ```
 docker history <imageName>
@@ -392,6 +424,9 @@ docker login
 ```
 docker push
 ```
+
+
+
 
 # Job
 ## Get Docker host ip
@@ -460,6 +495,7 @@ bash
 ```
 
 * ubuntu와 비슷하나 LANG=en_US.UTF8
+
 
 ## Git-Bash 사용시
 ### Volume Mapping 주의
@@ -551,7 +587,8 @@ echo -e "$SSH_USERPASS\n$SSH_USERPASS" | (passwd --stdin user)
 echo ssh user password: $SSH_USERPASS
 }
 ```
-# Call all functions
+
+ Call all functions
 ```
 __create_user
 ```

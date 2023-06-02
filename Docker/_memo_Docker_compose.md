@@ -2,6 +2,12 @@
 # docker-compose
 ## docker-compose info
 * link : 도커 컴포즈를 활용하여 완벽한 개발 환경 구성하기 (컨테이너 시대의 Django 개발환경 구축하기) : https://www.44bits.io/ko/post/almost-perfect-development-environment-with-docker-and-docker-compose
+## Install on linux
+```
+curl -SL https://github.com/docker/compose/releases/download/v2.17.2/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose  # chmod 를 통해서 실행이 가능하게 세팅
+docker-compose -v # docker-compose 명령이 제대로 먹히는 지 확인한다.
+```
 ## Command
 ### up
 ```

@@ -3,7 +3,6 @@
 
 # Agenda
 * [0.Markdown](./Markdown/)
-* [1.Atom](./Atom/)
-* [2.Git](./Git/)
-* [3.Python](./Python/)
-* [4.Docker](./Docker/)
+* [1.Git](./Git/)
+* [2.Python](./Python/)
+* [3.Docker](./Docker/)
